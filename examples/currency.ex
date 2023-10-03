@@ -4,8 +4,7 @@ defmodule Currency do
   end
 
   def convert_COP2USD(amount) when is_number(amount) do
-    _ = amount / 4217.50
-    "AAA"
+    amount / 4217.50
   end
 end
 
